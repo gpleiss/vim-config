@@ -25,12 +25,12 @@ endif
 
 " Tex specific settings
 set grepprg=grep\ -nH\ $*
-set iskeyword+=:
 autocmd BufRead,BufNewFile *.tex setlocal spell
 let g:Tex_MultipleCompileFormats='pdf,bib,pdf'
 let g:tex_flavor='latex'
 let g:Tex_DefaultTargetFormat='pdf'
 let g:Tex_TreatMacViewerAsUNIX = 0
+let g:Tex_UseMakefile = 1
 let g:Tex_CompileRule_pdf = 'pdflatex -synctex=1 --interaction=nonstopmode $*'
 if has("gui_running")
   autocmd BufEnter *.tex map <leader>la :w<CR><leader>ll<CR>
