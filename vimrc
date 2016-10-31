@@ -13,7 +13,7 @@ if has("gui_running")
   colorscheme solarized
 
   if has("gui_gtk2")
-    set guifont=Inconsolata\ 12
+    set guifont=DejaVu\ Sans\ Mono\ 10
     set guioptions-=m " remove menu bar
     set guioptions-=T " remove toolbar
     set guioptions-=r " remove right-hand scroll bar
