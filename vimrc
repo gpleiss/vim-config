@@ -26,20 +26,6 @@ endif
 " Tex specific settings
 set grepprg=grep\ -nH\ $*
 autocmd BufRead,BufNewFile *.tex setlocal spell
-let g:Tex_MultipleCompileFormats='pdf,bib,pdf'
-let g:tex_flavor='latex'
-let g:Tex_DefaultTargetFormat='pdf'
-let g:Tex_TreatMacViewerAsUNIX = 0
-let g:Tex_UseMakefile = 1
-let g:Tex_CompileRule_pdf = 'pdflatex -synctex=1 --interaction=nonstopmode $*'
-if has("gui_running")
-  autocmd BufEnter *.tex map <leader>la :w<CR><leader>ll<CR>
-  if has("gui_gtk2")
-    let g:Tex_ViewRule_pdf='zathura'
-  elseif has("gui_macvim")
-    let g:Tex_ViewRule_pdf = 'Skim'
-  endif
-endif
 
 " Trailing whitespace
 func! DeleteTrailingWS()
