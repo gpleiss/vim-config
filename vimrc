@@ -25,6 +25,8 @@ endif
 
 " Tex specific settings
 set grepprg=grep\ -nH\ $*
+autocmd BufEnter *.tex map <leader>lq :w<CR>:Make! quick<CR>
+autocmd BufEnter *.tex map <leader>la :w<CR>:Make! all<CR>
 autocmd BufRead,BufNewFile *.tex setlocal spell
 
 " Trailing whitespace
