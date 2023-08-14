@@ -58,3 +58,6 @@
 [submodule "bundle/vim-jsx-pretty"]
 	path = bundle/vim-jsx-pretty
 	url = https://github.com/MaxMEllon/vim-jsx-pretty
+[submodule "bundle/vim-closetag"]
+	path = bundle/vim-closetag
+	url = https://github.com/alvan/vim-closetag
