@@ -22,5 +22,5 @@ I do nowadays...
 - [bundle/ctrlp](https://github.com/kien/ctrlp.vim.git)
 - [bundle/vim-fugitive](https://github.com/tpope/vim-fugitive)
 - [bundle/vim-dispatch](https://github.com/tpope/vim-dispatch)
-- [bundle/vim-jsx](https://github.com/mxw/vim-jsx.git)
 - [bundle/vim-javascript](https://github.com/pangloss/vim-javascript.git)
+- [bundle/vim-jsx-pretty](https://github.com/MaxMEllon/vim-jsx-pretty)
