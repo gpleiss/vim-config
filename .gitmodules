@@ -1,63 +1,60 @@
 [submodule "bundle/CamelCaseMotion"]
-	path = bundle/CamelCaseMotion
+	path = pack/std/start/CamelCaseMotion
 	url = https://github.com/bkad/CamelCaseMotion.git
 [submodule "bundle/ag.vim"]
-	path = bundle/ag.vim
+	path = pack/std/start/ag.vim
 	url = https://github.com/rking/ag.vim
 [submodule "bundle/nerdcommenter"]
-	path = bundle/nerdcommenter
+	path = pack/std/start/nerdcommenter
 	url = https://github.com/scrooloose/nerdcommenter
 [submodule "bundle/vim-abolish"]
-	path = bundle/vim-abolish
+	path = pack/std/start/vim-abolish
 	url = https://github.com/tpope/vim-abolish.git
 [submodule "bundle/vim-colors-solarized"]
-	path = bundle/vim-colors-solarized
+	path = pack/std/start/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
-[submodule "bundle/vim-pathogen"]
-	path = bundle/vim-pathogen
-	url = https://github.com/tpope/vim-pathogen
 [submodule "bundle/vim-sensible"]
-	path = bundle/vim-sensible
+	path = pack/std/start/vim-sensible
 	url = https://github.com/tpope/vim-sensible
 [submodule "bundle/vim-surround"]
-	path = bundle/vim-surround
+	path = pack/std/start/vim-surround
 	url = https://github.com/tpope/vim-surround
 [submodule "bundle/vim-textobj-latex"]
-	path = bundle/vim-textobj-latex
+	path = pack/std/start/vim-textobj-latex
 	url = https://github.com/rbonvall/vim-textobj-latex
 [submodule "bundle/vim-textobj-user"]
-	path = bundle/vim-textobj-user
+	path = pack/std/start/vim-textobj-user
 	url = https://github.com/kana/vim-textobj-user
 [submodule "bundle/vim-gitgutter"]
-	path = bundle/vim-gitgutter
+	path = pack/std/start/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter
 [submodule "bundle/regreplop"]
-	path = bundle/regreplop
+	path = pack/std/start/regreplop
 	url = https://github.com/vim-scripts/regreplop.vim
 [submodule "bundle/vim-unimpaired"]
-	path = bundle/vim-unimpaired
+	path = pack/std/start/vim-unimpaired
 	url = https://github.com/tpope/vim-unimpaired
 [submodule "bundle/vim-repeat"]
-	path = bundle/vim-repeat
+	path = pack/std/start/vim-repeat
 	url = https://github.com/tpope/vim-repeat
 [submodule "bundle/vim-markdown"]
-	path = bundle/vim-markdown
+	path = pack/std/start/vim-markdown
 	url = https://github.com/plasticboy/vim-markdown.git
 [submodule "bundle/ctrlp"]
-	path = bundle/ctrlp
+	path = pack/std/start/ctrlp
 	url = https://github.com/kien/ctrlp.vim.git
 [submodule "bundle/vim-fugitive"]
-	path = bundle/vim-fugitive
+	path = pack/std/start/vim-fugitive
 	url = git@github.com:tpope/vim-fugitive.git
 [submodule "bundle/vim-dispatch"]
-	path = bundle/vim-dispatch
+	path = pack/std/start/vim-dispatch
 	url = git@github.com:tpope/vim-dispatch.git
 [submodule "bundle/vim-javascript"]
-	path = bundle/vim-javascript
+	path = pack/std/start/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
 [submodule "bundle/vim-jsx-pretty"]
-	path = bundle/vim-jsx-pretty
+	path = pack/std/start/vim-jsx-pretty
 	url = https://github.com/MaxMEllon/vim-jsx-pretty
 [submodule "bundle/vim-closetag"]
-	path = bundle/vim-closetag
+	path = pack/std/start/vim-closetag
 	url = https://github.com/alvan/vim-closetag
